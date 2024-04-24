@@ -11,7 +11,7 @@ function App() {
         <div className="w-56">
           <Sidebar />
         </div>
-        <div className="w-48">
+        <div className="w-48 pt-16 pl-2">
           <Widget />
         </div>
         <div className="flex-grow">

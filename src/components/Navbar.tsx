@@ -37,7 +37,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="./src/assets/htunez.jpg"
+                    src="./htunez.jpg"
                     alt="Your Company"
                   />
                 </div>
@@ -95,7 +95,7 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="./src/assets/profile-pic.jpg"
+                        src="./profile-pic.jpg"
                         alt=""
                       />
                     </Menu.Button>

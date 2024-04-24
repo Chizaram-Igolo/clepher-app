@@ -90,9 +90,9 @@ export const columns: ColumnDef<IData>[] = [
     cell: ({ row }) => (
       <div className="capitalize">
         {(row.getValue("icon") as string).toLowerCase() === "instagram" ? (
-          <img src="./src/assets/instagram.svg" width={14} />
+          <img src="./instagram.svg" width={14} />
         ) : (
-          <img src="./src/assets/messenger-blurple.svg" width={14} />
+          <img src="./messenger-blurple.svg" width={14} />
         )}
       </div>
     ),
